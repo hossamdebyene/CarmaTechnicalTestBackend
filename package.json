@@ -1,0 +1,29 @@
+{
+  "name": "carmatechnical",
+  "version": "1.0.0",
+  "description": "validation of card on online payments",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.ts",
+    "dev": "nodemon app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hossam Debyen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "joi": "^17.8.3",
+    "luhn": "^2.4.1",
+    "node-forge": "^1.3.1",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0"
+  }
+}
